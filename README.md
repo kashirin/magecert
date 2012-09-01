@@ -1,4 +1,0 @@
-magecert
-========
-
-Certification for magento
