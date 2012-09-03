@@ -1,0 +1,7 @@
+<config>    
+    <modules>
+        <Cyberhull_Configviewer>
+            <version>0.1.0</version>
+        </Cyberhull_Configviewer>
+    </modules>
+</config>
