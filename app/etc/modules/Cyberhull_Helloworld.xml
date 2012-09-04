@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Cyberhull_Helloworld>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Cyberhull_Helloworld>
+    </modules>
+</config>

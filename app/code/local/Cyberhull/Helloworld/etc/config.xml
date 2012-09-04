@@ -1,0 +1,27 @@
+<config>    
+    <modules>
+        <Cyberhull_Helloworld>
+            <version>0.1.0</version>
+        </Cyberhull_Helloworld>
+    </modules>
+    
+    <frontend>
+        <routers>
+            <hi>
+                <use>standard</use>
+                <args>
+                    <module>Cyberhull_Helloworld</module>
+                    <frontName>hi</frontName>
+                </args>
+            </hi>
+        </routers>  
+    </frontend>
+     <global>
+		<blocks>
+			<my>
+				<class>Cyberhull_Helloworld_Block</class>
+			</my>
+		</blocks>
+	</global>
+    
+</config>
