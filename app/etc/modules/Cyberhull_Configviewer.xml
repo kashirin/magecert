@@ -1,7 +1,8 @@
-<config>    
+<config>
     <modules>
         <Cyberhull_Configviewer>
-            <version>0.1.0</version>
+            <active>true</active>
+            <codePool>local</codePool>
         </Cyberhull_Configviewer>
     </modules>
-</config>
+</config>  
