@@ -18,9 +18,9 @@
     </frontend>
      <global>
 		<blocks>
-			<my>
+			<helloworld>
 				<class>Cyberhull_Helloworld_Block</class>
-			</my>
+			</helloworld>
 		</blocks>
 	</global>
     
