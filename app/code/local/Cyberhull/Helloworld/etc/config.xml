@@ -14,7 +14,14 @@
                     <frontName>hi</frontName>
                 </args>
             </hi>
-        </routers>  
+        </routers>
+        <layout>
+        	<updates>
+        		<hi>
+        			<file>ch.xml</file>
+        		</hi>	
+        	</updates>
+        </layout>  
     </frontend>
      <global>
 		<blocks>
@@ -23,5 +30,17 @@
 			</helloworld>
 		</blocks>
 	</global>
+	
+	<default>
+		<some>
+			<random>
+				<one>
+					<two>
+					some - random - one - two
+					</two>
+				</one>
+			</random>
+		</some>
+	</default>
     
 </config>

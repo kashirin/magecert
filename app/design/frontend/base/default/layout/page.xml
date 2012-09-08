@@ -227,7 +227,7 @@ Default layout, loads most of the pages
 				<label>Main Content Area</label>
 			</block>
 
-			<block type="page/html" name="newreference" as="newreference" />
+			
 
 
 		</block>
@@ -301,10 +301,6 @@ Default layout, loads most of the pages
 			</action>
 		</reference>
 		
-		<reference name="content">
-			<block type="page/html" name="helloworld"
-				template="helloworld/index.phtml" />
-		</reference>
 		
 	</page_three_columns>
 </layout>

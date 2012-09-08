@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+<default>
+	<block type="page/html" name="root" output="toHtml" template="page/mainpage.phtml">
+		<block name="topcontent" as="topcontent">
+		</block>
+		<block name="content" as="content">
+		</block>
+	</block>
+</default>

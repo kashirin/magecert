@@ -1,0 +1,14 @@
+<layout version="0.1.0">
+	<hi_index_index>
+	
+		
+		<reference name="content">
+			<block type="helloworld/html" name="topcontent" template="helloworld/index.phtml" />
+			<block type="helloworld/html" name="bottomcontent" template="helloworld/bottom.phtml" />
+		</reference>
+		
+		
+		
+	</hi_index_index>
+	
+</layout>
