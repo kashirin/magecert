@@ -11,7 +11,7 @@
                 <use>standard</use>
                 <args>
                     <module>Cyberhull_Helloworld</module>
-                    <frontName>hi</frontName>
+                    <frontName>custom</frontName>
                 </args>
             </hi>
         </routers>
@@ -25,9 +25,9 @@
     </frontend>
      <global>
 		<blocks>
-			<helloworld>
+			<cyberhull_helloworld>
 				<class>Cyberhull_Helloworld_Block</class>
-			</helloworld>
+			</cyberhull_helloworld>
 		</blocks>
 	</global>
 	
