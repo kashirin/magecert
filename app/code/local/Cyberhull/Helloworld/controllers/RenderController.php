@@ -27,4 +27,16 @@ class Cyberhull_Helloworld_RenderController extends Mage_Core_Controller_Front_A
 		
 		$this->getResponse()->setBody($blockHtml);
 	}
+	
+	public function layoutAction(){
+		$this->loadlayout()->renderlayout();
+	}
+	
+	public function handleAction(){
+		$this->loadLayout('cool_handle')->renderLayout();
+	}
+	
+	public function finalAction(){
+		$this->loadLayout()->renderLayout();
+	}
 }

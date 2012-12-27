@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+<!-- 
+	<catalog_product_view>
+	 
+		<reference name="content">
+			<block type="cyberhull_helloworld/withaction" name="oops" output="out">
+				
+			</block>
+		</reference>
+		
+		
+	</catalog_product_view>
+-->
+	
+	<cool_handle>
+		<block type="core/template"
+			   name="some.name"
+			   output="toHtml"
+			   template="some/template.phtml" />
+	</cool_handle>
+	
+	<hi_render_final>
+		<update handle="cool_handle"/>
+	</hi_render_final>
+	
+</layout>

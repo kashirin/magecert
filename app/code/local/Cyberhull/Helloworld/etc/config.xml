@@ -5,6 +5,18 @@
         </Cyberhull_Helloworld>
     </modules>
     
+    
+    
+    <adminhtml>
+    	<layout>
+    		<updates>
+    			<training>
+    				<file>training/animal.xml</file>
+    			</training>
+    		</updates>
+    	</layout>
+    </adminhtml>
+    
     <frontend>
         <routers>
             <hi>
@@ -17,9 +29,9 @@
         </routers>
         <layout>
         	<updates>
-        		<hi>
-        			<file>ch.xml</file>
-        		</hi>	
+        		<kasser_layout>
+        			<file>cyberhull_helloworld/custom.xml</file>
+        		</kasser_layout>	
         	</updates>
         </layout>  
     </frontend>
@@ -28,8 +40,34 @@
 			<cyberhull_helloworld>
 				<class>Cyberhull_Helloworld_Block</class>
 			</cyberhull_helloworld>
+			<!-- 
+			<catalog>
+				<rewrite>
+					<product_view>Cyberhull_Helloworld_Block_Catalog_Product_View</product_view>
+				</rewrite>
+			</catalog>
+			-->
+			
+			<page>
+				<rewrite>
+					<html_breadcrumbs>Cyberhull_Helloworld_Block_Html_Breadcrumbs</html_breadcrumbs>
+				</rewrite>
+			</page>
+			
 		</blocks>
 	</global>
+	
+	<admin>
+    	<routers>
+            <the_name_of_this_element_is_not_important_it_should_be_unique>
+                <use>admin</use>
+                <args>
+                    <module>Cyberhull_Helloworld</module>
+                    <frontName>adm</frontName>
+                </args>
+            </the_name_of_this_element_is_not_important_it_should_be_unique>
+        </routers>
+    </admin>
 	
 	<default>
 		<some>
